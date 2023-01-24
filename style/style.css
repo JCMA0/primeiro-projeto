@@ -1,0 +1,470 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;900&display=swap');
+
+:root {
+    --cor0: #f2f2f2;
+    --cor1: #ffffff;
+    --cor2: #eb5757;
+    --cor3: #333333;
+    --fonte-padrao: 'Source Sans Pro', sans-serif;
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+/***Começo HEADER***/
+
+header
+{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin: 15px 30px 15px 10px;
+    font-family: var(--fonte-padrao);
+    
+}
+
+.nav
+{
+    display: flex;
+    justify-content: center;
+}
+
+.nav a
+{
+    font-size: 300;
+    font-size: 12px;
+    padding: 3px;
+    text-decoration: none;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.languages
+{
+    text-decoration: none;
+    padding-left: 5px;
+    border: 0 solid white;
+}
+
+select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: url(../images/select-angle-down.png) no-repeat center right #FFF;
+    border: 1px solid #333;
+    font-size: 15px;
+    padding-right: 20px;
+}
+
+option
+{
+    border: none;
+}
+
+.navbar
+{
+    margin: 0px 10px 0px 10px;
+}
+
+#oi
+{
+    padding-right: 400px;/*padding do header onde esta escrito home,contact */
+    text-decoration: none;
+}
+
+#woman
+{
+    width: 100%;
+    font-family: var(--fonte-padrao);
+    font-style: normal;
+    font-weight: 900;
+    font-size: 90px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.065em;
+    color: #333333;
+}
+
+#woman h1
+{
+    font-size: 85px;
+    margin: 10px;
+}
+
+#woman img
+{
+    width: 300px;
+    padding-left: 100px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.woman-text
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-left: 166px;
+    margin-right: 100px;
+}
+
+#top-button-header-1
+{
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.35em;
+    color: var(--cor3);
+    font-family: var(--fonte-padrao);
+}
+
+#top-button-header-2
+{
+    font-weight: 700;
+    font-size: 18px;
+    font-family: var(--fonte-padrao);
+    letter-spacing: 0.25em;
+    color: var(--cor3);
+}
+
+#top-button-header-3
+{
+    font-weight: 200;
+    font-size: 18px;
+    font-family: var(--fonte-padrao);
+    letter-spacing: 0.45em;
+    color: var(--cor3);
+}
+
+#woman-botao
+{
+    background-color: #eb5757;
+    width: 200px;
+    height: 70px;
+    color: #ffffff;
+    border-radius: 4px;
+    border: none;
+    transition: box-shadow .15s,transform .15s;
+    margin-left: 30px;
+}
+
+#woman-botao:hover
+{
+    border: 3px solid #eb5757;
+    box-shadow: rgba(45, 35, 66, 0.3) 0 4px 8px, rgba(45, 35, 66, 0.2) 0 7px 13px -3px, #eb5757 0 -3px 0 inset;
+    transform: translateY(-2px);
+}
+
+#woman-text-p-1
+{
+    width: 300px;
+    padding: 5px;
+    font-family: var(--fonte-padrao);
+    font-weight: 400;
+    font-size: 14px;
+    text-align: justify;
+    color: #333333;
+    letter-spacing: 0.1em;
+}
+
+#woman-text-p-2
+{
+    width: 100%;
+    font-family: var(--fonte-padrao);
+    font-weight: 400;
+    font-size: 14px;
+    text-align: justify;
+    color: #333333;
+    letter-spacing: 0.095em;
+}
+
+.background
+{
+    background-color: #f2f2f2;
+}
+
+/****Fim do HEADER****/
+
+/***Começo do MAIN***/
+
+.div-pai
+{
+    display: flex;  
+    justify-content: flex-start;
+}
+
+body 
+{
+    font-family: var(--fonte-padrao);
+}
+
+
+#cd-pai
+{
+    background-color: #f2f2f2;
+    display: flex;
+    padding-bottom: 40px;
+}
+
+.cd-zao
+{
+    padding-top: 50px;
+    padding-left: 100px;
+}
+
+#cd-pai h2
+{
+    width: 434px;
+    height: 72px;
+    font-family: var(--fonte-padrao);
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    color: #4F4F4F;
+}
+
+#cd-pai h3
+{
+    width: 434px;
+    height: 18px;
+    font-family: var(--fonte-padrao);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 18px;
+    text-align: justify;
+    color: #4F4F4F;
+    padding-bottom: 40px;
+}
+
+#cd-pai p
+{
+    width: 350px;
+    height: 280px;
+    font-family: var(--fonte-padrao);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    text-align: justify;
+    color: #333333;
+}
+
+#cd-pai img
+{
+    padding-top: 50px;
+    width: 600px;
+    height: 400px;
+    border-radius: 20px;
+}
+
+#celular
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+#celular h2
+{
+    width: 600px;
+    height: 72px;
+    font-family: var(--fonte-padrao);
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    color: #4F4F4F;
+    padding-left: 100px;
+}
+
+#celular h3
+{
+    width: 600px;
+    height: 18px;
+    font-family: var(--fonte-padrao);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 18px;
+    text-align: justify;
+    letter-spacing: 0.475em;
+    color: #4F4F4F;
+    padding-left: 100px;
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+
+#celular img
+{
+    margin: 0;
+    padding: 0;
+    width: 240px;
+    height: 220px;
+}
+
+.celular-div
+{
+    padding: 0;
+    margin: auto;
+    width: 80%;
+}
+
+.formulario
+{
+    background-color: #f2f2f2;
+    margin: 0 auto;
+    padding-top: 15px;
+}
+
+.texto-formulario
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-items: flex-start;
+    margin-top: 40px;
+}
+
+.texto-formulario h2
+{
+    width: 880px;
+    height: 216px;
+    font-family: var(--fonte-padrao);
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    color: #4F4F4F;
+    padding-left: 100px;
+}
+
+.texto-formulario p
+{
+    width: 400px;
+    height: 60px;
+    font-family: var(--fonte-padrao);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: justify;
+    color: #333333;
+    margin-left: 20%;
+    margin-top: -5%;
+}
+
+input 
+{
+    border: none;
+    width: 330px;
+    height: 26px;
+    background-color: #f2f2f2;
+    border-bottom: 2px solid #BDBDBD;
+    border-radius: 1px;
+    color: #828282;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+form
+{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    padding-top: 50px;
+}
+
+.formulario button
+{
+    background-color: #eb5757;
+    width: 236px;
+    height: 70px;
+    color: #ffffff;
+    border-radius: 4px;
+    border: none;
+    transition: box-shadow .15s,transform .15s;
+}
+
+.formulario button:hover
+{
+    background-color: #eb5757;
+    border: 3px solid #eb5757;
+    box-shadow: rgba(45, 35, 66, 0.3) 0 4px 8px, rgba(45, 35, 66, 0.2) 0 7px 13px -3px, #eb5757 0 -3px 0 inset;
+    transform: translateY(-2px);
+}
+
+.botao
+{
+    margin: 0 auto;
+    padding-left: 40%;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.footer-1
+{
+    text-align: justify;
+    padding-left: 115px;
+    width: 170px;
+    margin: auto;
+}
+
+.footer-1 > img
+{
+    width: 170px;
+    height: 87px;
+}
+
+.footer-1 p
+{
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.footer-2 
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-left: 120px;
+    width: 100%;
+}
+
+.footer-2 nav
+{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-2 a
+{
+    font-size: 300;
+    font-size: 12px;
+    padding: 3px;
+    text-decoration: none;
+}
+
+.footer-2 p
+{
+    font-weight: 700;
+    font-size: 12px;
+    padding-top: 50px;
+    padding-left: 10px;
+}
+
+footer
+{
+    display: flex;
+    flex-direction: row;
+    font-family: var(--fonte-padrao);
+    height: 300px;
+}
